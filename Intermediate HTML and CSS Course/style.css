@@ -1,0 +1,149 @@
+:root {
+    --main-color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: testfont;
+    src: url("Norse-Bold.otf") format("opentype");
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: var(--main-color);
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main1 > #img2 {
+    width: 34em;
+    min-height: 100vh;
+    object-fit: cover;
+    position: absolute;
+}
+
+.main1 > #img1, .main1 > div {
+    position: relative;
+    bottom: 20px;
+    left: 150px;
+    width: 5em;
+    opacity: 0.5;
+}
+
+.main1 h1 {
+    position: relative;
+    top: 100px;
+    background-color: rgb(21, 21, 21);
+    opacity: 0.5;
+    padding: 50px;
+    left: 1px;
+    width: 13.8em;
+    text-align: center;
+    color: white;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 2em;
+    letter-spacing: 3px;
+}
+
+.main1 {
+    width: 33rem;
+}
+
+
+.main1 , .main {
+    display: inline-block;
+}
+
+.main {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.main {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    min-height: 200rem;
+    width: 45em;
+    margin-top: 20px;
+}
+
+.main article {
+    font-size: 1.2rem;
+    color: rgb(67, 66, 66);
+}
+
+.main article, .main fieldset div, .main fieldset h3, .main fieldset {
+    padding-left: 60px;
+}
+
+input[type="submit"] {
+    margin: 40px 0px 40px 60px;
+    padding: 0.8em 2.5em;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    background-color: #596D48;
+} 
+
+input[type="submit"] + p {
+    margin-left: 60px;
+}
+
+a {
+    color: #596D48;
+    text-decoration: none;
+}
+
+.main fieldset {
+    width: 55em;
+    height: auto;
+    padding: 15px 0px;
+    border: none;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+}
+
+.main fieldset div {
+    display: inline-block;
+    width: 20em;
+    margin: 0px 20px 10px 0px;
+}
+
+
+.main fieldset div label  {
+    display: block;
+    font-weight: normal;
+    font-size: smaller;
+    letter-spacing: 1.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main fieldset div input  {
+    padding: 8px;
+    border-radius: 3px;
+    border: none;
+    margin: 2px 0px;
+    width: 26em;
+    border: 1px solid #E5E7EB;
+}
+
+form {
+    margin: 40px 0px 10px 0px;
+}
+
+
+
+
